@@ -10,6 +10,9 @@ namespace Algorithmrun
     {
         static void Main(string[] args)
         {
+            MyLogic shoop = new MyLogic();
+            Console.WriteLine(shoop.IsPalindrome(12321));
+            Console.ReadLine();
         }
     }
 }
